@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/mainFragment">
+
+
+    <fragment
+        android:id="@+id/nav_refer"
+        android:name="com.example.tolate.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.tolate.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.tolate.Logout"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/newUserFragment"
+        android:name="com.example.tolate.NewUserFragment"
+        android:label="fragment_new_user"
+        tools:layout="@layout/fragment_new_user" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473988800929",
+    "project_id": "auth-d9656",
+    "storage_bucket": "auth-d9656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473988800929:android:38e7477f5420963f27ebe0",
+        "android_client_info": {
+          "package_name": "com.example.tolate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473988800929-afeg4ugjqpav6it0eeuvdlob354bolch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4EeDaqpGGnSXBtIOfqtwqMsK7lvSuCE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473988800929-afeg4ugjqpav6it0eeuvdlob354bolch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
